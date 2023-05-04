@@ -1,4 +1,4 @@
 dash==2.7
 pandas
 dash_bootstrap_components
-guincorn
+gunicorn
