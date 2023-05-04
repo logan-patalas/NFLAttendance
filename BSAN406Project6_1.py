@@ -2,11 +2,13 @@ import pandas as pd
 import plotly.express as px
 from dash import Dash, html, dcc, Input, Output, State
 import dash_bootstrap_components as dbc
+import pathlib
 
 
 #import file
-file="NFLAttendanceData2015thru2022no2020.csv"
-NFL_Attendance=pd.read_csv(file)
+main_folder = pathlib.Path(__file__).parent
+data= main_folder / "NFLAttendanceData2015thru2022no2020.csv"
+NFL_Attendance=pd.read_csv(data)
 NFL_Attendance
 
 
