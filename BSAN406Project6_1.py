@@ -27,6 +27,7 @@ nfl_reshaped['Attendance'] = nfl_reshaped['Attendance'].astype(int)
 
 app= Dash(__name__,external_stylesheets=[dbc.themes.SANDSTONE])
 
+server = app.server
 
 app.layout = dbc.Container(
         children=[
