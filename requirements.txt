@@ -1,4 +1,4 @@
-Dash==2.7
-Pandas
-Dash_bootstrap_components
-Guincorn
+dash==2.7
+pandas
+dash_bootstrap_components
+guincorn
