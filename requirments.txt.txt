@@ -1,0 +1,4 @@
+Dash==2.7
+Pandas
+Dash_bootstrap_components
+Guincorn
