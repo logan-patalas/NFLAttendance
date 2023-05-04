@@ -5,7 +5,7 @@ import dash_bootstrap_components as dbc
 
 
 #import file
-file="C:/Users/patal/OneDrive/Documents/NFLAttendanceData2015thru2022no2020.csv"
+file="NFLAttendanceData2015thru2022no2020.csv"
 NFL_Attendance=pd.read_csv(file)
 NFL_Attendance
 
